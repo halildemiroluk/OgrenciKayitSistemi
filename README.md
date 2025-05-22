@@ -113,12 +113,4 @@ OgrenciKayitSistemi.sln
 - 🏷️ Enum tabanlı **Cinsiyet**, **Sınıf**, **Branş** seçimi
 - 📦 Repository ve servis katmanları ile yapılandırma
 - 🌐 Razor View'lar ile kullanıcı dostu arayüz
-
-
-![WhatsApp Image 2025-05-22 at 15 56 42](https://github.com/user-attachments/assets/f0793117-bd3b-437f-af46-495c478df068)
-
-
-![WhatsApp Image 2025-05-22 at 15 56 50-min](https://github.com/user-attachments/assets/aee888fd-e578-42b8-9919-187668bb45b2)
-
----![WhatsApp Image 2025-05-22 at 15 56 42-min](https://github.com/user-attachments/assets/b2b2af3e-142d-4099-ac28-7f5c8f47befb)
-
+---
