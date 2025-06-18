@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<style>
+    body {
+        background: url('/Img/okul.jpg') no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+
+    .custom-card {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        transition: transform 0.2s;
+    }
+
+    .custom-card:hover {
+        transform: scale(1.02);
+    }
+
+    h1, h3 {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-custom {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    .btn-custom:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<div class="container text-center mt-5">
+    <h1 class="display-4 fw-bold text-white mb-5">🏫 Okul Kayıt Sistemi</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+            <div class="custom-card">
+                <h3 class="mb-3">👨‍🎓 Öğrenci Ekle</h3>
+                <a class="btn btn-custom" asp-controller="Student" asp-action="Create">Başla</a>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="custom-card">
+                <h3 class="mb-3">👩‍🏫 Öğretmen Ekle</h3>
+                <a class="btn btn-custom" asp-controller="Teacher" asp-action="Create">Başla</a>
+            </div>
+        </div>
+    </div>
+</div>
